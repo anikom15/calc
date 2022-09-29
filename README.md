@@ -1,7 +1,7 @@
 # calc
 RPN Calculator
 
-# Copyright Notice
+## Copyright Notice
 Copyright © 2022 W. M. Martinez
 
 Copying and distribution of this file, with or without modification,
