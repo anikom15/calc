@@ -1,8 +1,47 @@
 # calc
-RPN Calculator
+Reverse Polish notation (RPN) Calculator primarily based on the
+functionality described in 'The C Programming Language' by Kernighan
+and Ritchie.
 
-## Copyright Notice
-Copyright © 2022 W. M. Martinez
+## Introduction to Reverse Polish Notation
+Reverse Polish notation (RPN) is a mathematical expression format
+primarily used in Hewlett-Packard calculators.  It is also used in some
+programming languages, like Forth and PostScript.  RPN is distinguished
+from 'algebraic' notation (AN), where most operators are written
+between the operands.  The following presents the mathematical
+evaluations available for this calculator:
+
+* Addition: $3 + 4 = 7$
+* Subtraction: $-5 - 7 = -12$
+* Multiplication: $2 \times 3.14 = 6.28$
+* Division: $9 \div -1.5 = -6$
+* Modulo operation: $2 \mod 4 = 2$
+
+In RPN (thus how these expressions should be entered in this
+calculator), the above expressions appear like so:
+
+* Addition: `3 4 +`
+* Subtraction: `-5 7 -`
+* Multiplication: `2 3.14 *`
+* Division: `verb|9 -1.5 /`
+* Modulo operation: `2 4 %`
+
+Note that for non-communative operations, the order of the operands is
+processed identically in RPN as in AN.  That is, only the *operator*
+changes places.  The order of operands should be the same.
+
+## Usage
+
+Entries are read from standard input.  Multiple RPN expressions can be
+expressed on a single line.  For example, the entry `5 7 + 9 8 + *`
+will evaluate to 204.
+
+## Bugs
+
+Bugs can be reported to W. M. Martinez <anikom15@outlook.com>.
+
+## Notice
+Copyright 2022 W. M. Martinez
 
 Copying and distribution of this file, with or without modification,
 are permitted in any medium without royalty provided the copyright
