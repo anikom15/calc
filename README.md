@@ -38,7 +38,7 @@ will evaluate to 204.
 
 ## Bugs
 
-Bugs can be reported to W. M. Martinez <anikom15@outlook.com>.
+Bugs can be reported to [W. M. Martinez]<anikom15@outlook.com>.
 
 ## Notice
 Copyright 2022 W. M. Martinez
