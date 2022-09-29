@@ -23,7 +23,7 @@ calculator), the above expressions appear like so:
 * Addition: `3 4 +`
 * Subtraction: `-5 7 -`
 * Multiplication: `2 3.14 *`
-* Division: `verb|9 -1.5 /`
+* Division: `9 -1.5 /`
 * Modulo operation: `2 4 %`
 
 Note that for non-communative operations, the order of the operands is
