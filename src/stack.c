@@ -41,4 +41,37 @@ double pop(void)
 		printf("error: stack empty\n");
 		return 0.0;
 	}
-} 
+}
+
+/* peek:  return the top value from the stack without popping it */
+double peek(void)
+{
+	if (sp > 0)
+		return val[sp - 1];
+	else {
+		printf("error: stack empty\n");
+		return 0.0;
+	}
+}
+
+/* dup:  duplicate the top value of the stack and push it */
+void dup(void)
+{
+	push(peek());
+}
+
+/* swap:  swap the top two elements of the stack */
+void swap(void)
+{
+	double x = pop();
+	double y = pop();
+
+	push(x);
+	push(y);
+}
+
+/* cls:  clear the stack */
+void cls(void)
+{
+	sp = 0;
+}

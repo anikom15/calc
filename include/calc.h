@@ -21,6 +21,10 @@
 
 void push(double);
 double pop(void);
+double peek(void);
+void dup(void);
+void swap(void);
+void cls(void);
 int getop(char []);
 int getch(void);
 void ungetch(int);

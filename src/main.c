@@ -19,7 +19,7 @@
 #include <stdio.h>
 #include <stdlib.h>  /* for atof() */
 
-#define MAXOP  100   /* max size of operand or operator */
+#define MAXOP  100  /* max size of operand or operator */
 #define NUMBER '0'  /* signal that a number was found */
 
 /* reverse Polish calculator */
@@ -34,6 +34,19 @@ int main()
 		case NUMBER:
 			push(atof(s));
 			break;
+
+		/* stack operations */
+		case 'd': case 'D':
+       			dup();
+       			break;
+		case 's': case 'S':
+       			swap();
+       			break;
+		case 'c': case 'C':
+       			cls();
+       			break;
+
+		/* arithmetic */
 		case '+':
 			push(pop() + pop());
 			break;
@@ -59,7 +72,7 @@ int main()
 				printf("error: zero divisor\n");
 			break;
 		case '\n':
-			printf("\t%.8g\n", pop());
+			printf("\t%.8g\n", peek());
 			break;
 		default:
 			printf("error: unknown command %s\n", s);

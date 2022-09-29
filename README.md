@@ -36,6 +36,17 @@ Entries are read from standard input.  Multiple RPN expressions can be
 expressed on a single line.  For example, the entry `5 7 + 9 8 + *`
 will evaluate to 204.
 
+### Stack Operations
+
+A carriage return (↵) will display the evaluated expression.  This
+does not remove the value from the stack.
+
+The following stack operations are supported:
+
+* `C` - Clear the stack
+* `D` - Duplicate the topmost value
+* `S` - Swap the top two values on the stack
+
 ## Bugs
 
 Bugs can be reported to [W. M. Martinez](mailto:anikom15@outlook.com).
