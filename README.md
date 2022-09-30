@@ -1,6 +1,3 @@
-Filename: README.md
-1st Edition
-
 # calc
 Reverse Polish notation (RPN) Calculator primarily based on the
 functionality described in 'The C Programming Language' by Kernighan
