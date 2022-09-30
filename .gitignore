@@ -50,3 +50,29 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Vim
+*~
+
+# Autotools
+*.in
+*/*.in
+*.tar.gz
+aclocal.m4
+autom4te.cache/
+autoscan.log
+compile
+config.h
+config.log
+config.status
+configure
+configure.scan
+depcomp
+git-version-gen
+install-sh
+Makefile
+*/Makefile
+missing
+src/calc
+src/.deps/
+stamp-h1
