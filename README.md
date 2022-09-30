@@ -1,3 +1,6 @@
+Filename: README.md
+1st Edition
+
 # calc
 Reverse Polish notation (RPN) Calculator primarily based on the
 functionality described in 'The C Programming Language' by Kernighan
@@ -52,6 +55,8 @@ The following stack operations are supported:
 Bugs can be reported to [W. M. Martinez](mailto:anikom15@outlook.com).
 
 ## Notice
+1st Edition
+
 Copyright 2022 W. M. Martinez
 
 Copying and distribution of this file, with or without modification,
