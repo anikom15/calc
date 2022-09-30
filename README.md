@@ -28,7 +28,7 @@ calculator), the above expressions appear like so:
 
 Note that for non-communative operations, the order of the operands is
 processed identically in RPN as in AN.  That is, only the *operator*
-changes places.  The order of operands should be the same.
+changes place.  The order of operands should be the same.
 
 ## Usage
 
