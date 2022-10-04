@@ -39,6 +39,9 @@ int main()
 		case 'd': case 'D':
        			dup();
        			break;
+		case 'p': case 'P':
+			printf("\t%.8g\n", peek());
+			break;
 		case 's': case 'S':
        			swap();
        			break;
@@ -72,7 +75,7 @@ int main()
 				printf("error: zero divisor\n");
 			break;
 		case '\n':
-			printf("\t%.8g\n", peek());
+			printf("\t%.8g\n", pop());
 			break;
 		default:
 			printf("error: unknown command %s\n", s);
