@@ -29,6 +29,7 @@ AM_INIT_AUTOMAKE([-Wall -Werror])
 # Checks for programs.
 AC_PROG_CC  
 
+AC_CHECK_HEADERS([stdlib.h])
 AC_CONFIG_SRCDIR([src/stack.c])
 AC_CONFIG_HEADERS([config.h]) 
 
